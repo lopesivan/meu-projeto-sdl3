@@ -3,7 +3,7 @@
         "type": "cpp",
         "start": "make configure",
         "make": "make build",
-        "run": "lua require('config.neovim_dev').app('./build/app_example')",
+        "run": "lua vim.cmd.terminal('./build/app_example')",
         "clean": "!rm -rf {project}/build"
     },
     "./.projections.json": {
